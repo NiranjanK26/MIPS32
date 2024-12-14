@@ -3,9 +3,10 @@
   The MIPS32 is a 32 bit processor. It is a 5 stage pipelined processor. There are registers between the pipeline to store the previous value.
   
 ## Stages of Pipeline
-### 1. Instruction Fetch
-![image](https://github.com/nithish203/MIPS32/assets/115063170/43b029d7-37d1-4c1c-868a-6aa274320d5a)
-        
+
+![7yPhC](https://github.com/user-attachments/assets/fa1b9d13-25fb-4202-880b-1e09636ff26b)
+
+### 1. Instruction Fetch       
 ### 2. Instruction Decode
 ### 3. Execte
 ### 4. Memory 
