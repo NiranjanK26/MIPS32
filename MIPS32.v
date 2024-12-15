@@ -70,12 +70,12 @@ begin
 		
 		case(IF_ID_IR[31:26])
 			ADD,SUB,AND,OR,NOT,XOR,NEGU,MUL,DIV,MOVE,MOVN:      ID_EX_type <= RR_ALU;
-			ADDI,SUBI,ANDI,ORI,XORI: 									 ID_EX_type <= RM_ALU;
-			LW:																 ID_EX_type <= LOAD;
-			SW:																 ID_EX_type <= STORE;
-			BNEQZ,BEQZ:														 ID_EX_type <= BRANCH;
-			HLT:																 ID_EX_type <= HALT;
-			default:															 ID_EX_type <= HALT;
+			ADDI,SUBI,ANDI,ORI,XORI: 			    ID_EX_type <= RM_ALU;
+			LW:						    ID_EX_type <= LOAD;
+			SW:						    ID_EX_type <= STORE;
+			BNEQZ,BEQZ:					    ID_EX_type <= BRANCH;
+			HLT:						    ID_EX_type <= HALT;
+			default:					    ID_EX_type <= HALT;
 		endcase
 			
 		end
